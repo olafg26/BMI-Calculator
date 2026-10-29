@@ -4,7 +4,7 @@ height = float(input("Enter your height in metres: "))
 weight = float(input("Enter your weight in kilograms: "))
 
 #PROCESS
-BMI = ((weight) / (height ** 2))
+BMI = round((weight) / (height ** 2), 1)
 
 #CONDITIONAL BLOCK
 if BMI < 18.5:
